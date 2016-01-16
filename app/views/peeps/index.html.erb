@@ -1,0 +1,14 @@
+<head>
+</head>
+
+  <div class="container">
+    <h1>Peeps</h1>
+    <br>
+    <% @peeps.each do |peep| %>
+    <p><%= peep.content %></p>
+    <p><%= peep.created_at %></p>
+    <% end %>
+
+    <%= link_to "New Peep", "peeps/new" %>
+
+  </div>

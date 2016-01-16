@@ -1,0 +1,32 @@
+// Place all the styles related to the Peeps controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 100px;
+  font-size: 10em;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 1)
+    ),
+    /* bottom, image */
+    url('rails_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: scroll;
+}

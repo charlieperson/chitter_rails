@@ -1,0 +1,5 @@
+<%= form_for(@peep) do |peep| %>
+<%= peep.label :peep %>
+<%= peep.text_area :content %>
+<%= peep.submit "Peep!" %>
+<% end %>
